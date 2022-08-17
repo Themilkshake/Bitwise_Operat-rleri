@@ -3,9 +3,22 @@ import numpy as np
 
 #bitwise işemi: genel bir görüntünün belli bir kısmının nasıl değiştiğini bize gösterir.
 
-resim=cv2.imread(as.jpg)
+resim1=cv2.imread(as.jpg)
+resim1=cv2.imread(sa.jpg)
 
 cv2.imshow("orjinal resim",resim)
+
+
+bit_and=cv2.bitwise_and(resim1)
+
+
+
+
+
+
+
+
+
 
 
 """
