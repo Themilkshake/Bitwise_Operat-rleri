@@ -1,24 +1,23 @@
 import cv2
 import numpy as np
 
-#bitwise işemi: genel bir görüntünün belli bir kısmının nasıl değiştiğini bize gösterir.
+#bitwise işemi: genel bir görüntünün belli bir kısmının nasıl değiştiğini bize gösterir(iki resmi karşılaştırarak(üst üste bindirerek)).
 
-resim1=cv2.imread(as.jpg)
-resim1=cv2.imread(sa.jpg)
+resim1=cv2.imread(si.jpg)
+resim2=cv2.imread(um.jpg)
 
-cv2.imshow("orjinal resim",resim)
+cv2.imshow("orjinal resim",resim1)
 
-
-bit_and=cv2.bitwise_and(resim1)
-
-
-
-
+bit_and=cv2.bitwise_and(resim1,resim2)
+bit_or=cv2.bitwise_or(resim1,resim2)
+bit_xor=cv2.bitwise_xor(resim1,resim2)
+bit_not=cv2.bitwise_not(resim1,resim2)
 
 
-
-
-
+cv2.imshow("bit_and",bit_and)
+cv2.imshow("bit_or",bit_or)
+cv2.imshow("bit_xor",bit_xor)
+cv2.imshow("bit_not",bit_not)
 
 
 """
