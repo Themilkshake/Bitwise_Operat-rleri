@@ -1,2 +1,2 @@
-# Bitwise_Operat-rleri
+# Bitwise_Operatorleri
 Python Opencv'de bitwise işlemi
